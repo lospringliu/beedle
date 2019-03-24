@@ -5,6 +5,7 @@ export default class Store {
         // Add some default objects to hold our actions, mutations and state
         self.actions = {};
         self.mutations = {};
+        // we can try use different variable
         self.state = {};
 
         // A status enum to set during actions and mutations
